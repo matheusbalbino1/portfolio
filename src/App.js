@@ -1,24 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
-
+import { createGlobalStyle } from 'styled-components';
+import Header from "./Componentes/Header/Header.jsx"
+import Apresentacao from './Componentes/Apresentacao/Apresentacao';
+import Conhecimentos from './Componentes/Conhecimentos/Conhecimentos';
+import Projetos from './Componentes/Projetos/Projetos';
+import Footer from './Componentes/Footer/Footer';
 function App() {
+
+  const GlobalStyle = createGlobalStyle`
+    * {
+      margin:0;
+      padding:0;
+      box-sizing: border-box;
+      font-family: "Inter",sans-serif;
+     }
+  `
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <GlobalStyle />
+      <Header />
+      <Apresentacao />
+      <Conhecimentos />
+      <Projetos />
+      <Footer />
+    </>
   );
 }
 
