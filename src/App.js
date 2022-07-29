@@ -7,6 +7,9 @@ import Footer from './Componentes/Footer/Footer';
 function App() {
 
   const GlobalStyle = createGlobalStyle`
+    html{
+      scroll-behavior: smooth;
+    }
     * {
       margin:0;
       padding:0;

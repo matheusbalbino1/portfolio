@@ -26,6 +26,9 @@ export const NavDesktop = styled.header`
                     font-size: 1rem;
                     color: white;
                     text-transform: uppercase;
+                    &:hover{
+                        filter: brightness(0.8);
+                    }
                 }
             }
         }
