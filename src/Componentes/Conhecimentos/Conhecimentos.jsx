@@ -9,18 +9,17 @@ function Conhecimentos() {
                 <li>FlexBox</li>
                 <li>Pseudo-classes</li>
                 <li>Pseudo-elementos</li>
-                <li>Sass</li>
+                <li>SASS</li>
                 <li>JavaScript</li>
-                <li>API</li>
-                <li>DOM</li>
-                <li>Class</li>
+                <li>REST API</li>
                 <li>BootStrap</li>
                 <li>ReactJS</li>
-                <li>Criar componentes</li>
+                <li>NextJS</li>
+                <li>Chakra-UI</li>
+                <li>Styled-components</li>
+                <li>Typescript</li>
                 <li>Hooks React</li>
-                <li>API</li>
                 <li>React Router</li>
-                <li>Json-server</li>
                 <li>Variaveis de Ambiente</li>
             </Carousel>
         </ContainerCarousel>

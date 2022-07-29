@@ -1,5 +1,4 @@
 import imagemPerfil from "../../imgs/perfil.png"
-
 import { Article, ButtonContato } from "./style"
 
 function Apresentacao() {
